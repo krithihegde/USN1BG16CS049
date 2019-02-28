@@ -1,4 +1,5 @@
-//decision making 
+// decision making 
+/*
 var age=18;
 if(age<18){
     console.log("minor");
@@ -71,6 +72,16 @@ console.log(shiva);
 
 //
 console.log('Krithi is '+myDetails.calcAge(myDetails.doB)+'years old');
+*/
+
+var but=document.getElementById('btn');
+but.addEventListener('mouseover',changeOnmouseover);
+function changeOnmouseover(){
+    this.style.background="red";
+}
+
+
+
 
 
 
